@@ -1,0 +1,21 @@
+{
+  "name": "aula01",
+  "version": "1.0.0",
+  "description": "Pojeto Aula 01 de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "echo \"publicando em homologação\"",
+    "prod" : "echo \"publicando em produção\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoEmmel/nodejs_target.git"
+  },
+  "author": "Gustavo Reichelt Emmel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoEmmel/nodejs_target/issues"
+  },
+  "homepage": "https://github.com/GustavoEmmel/nodejs_target#readme"
+}
