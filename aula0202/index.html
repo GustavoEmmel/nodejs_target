@@ -1,0 +1,26 @@
+<html>
+	<head><title>API Client</title></head>
+	<body>
+
+<script type="text/javascript">
+	function reqListener() {
+		console.log(this.responseText);
+		var estados = JSON.parse(this.responseText);
+		console.log(estados);
+
+	};
+	
+	var Request = new XMLHttpRequest();
+	Request.onload = reqListener;
+
+	var url = window.location.href;
+	url = url.replace("8001", "8000");
+
+	Request.open("get", url, true);
+	Request.send();
+
+</script>
+
+		<h1>Hello World</h1>
+	</body>
+</html>
